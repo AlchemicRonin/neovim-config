@@ -92,6 +92,14 @@ return {
                 -- [[⠀⠀⠀⠀⠀⠀⣎⡠⠞⠉⠓⠲⢤⣄⣀⠉⠙⠒⢢⡴⢭⡆⡼⠀⠀⡴⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀]],
                 -- [[⠀⠀⠀⠀⡠⠞⠉⠀⠀⠀⠀⠀⠀⠀⠉⠙⠒⡦⢬⣙⠊⡽⠁⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀]],
             }
+            for _, button in ipairs(opts.section.buttons.val) do
+                button.opts.hl = "AlphaButtons"
+                button.opts.hl_shortcut = "AlphaShortcut"
+            end
+            -- opts.section.header.opts.hl = "AlphaHeader"
+            opts.section.header.opts.hl = "AlphaFooter"
+            opts.section.buttons.opts.hl = "AlphaButtons"
+            opts.section.footer.opts.hl = "AlphaFooter"
             return opts
         end,
     },

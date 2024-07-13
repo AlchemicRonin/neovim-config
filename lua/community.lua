@@ -40,6 +40,7 @@ return {
     { import = "astrocommunity.completion.copilot-cmp" },
 
     { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+    { import = "astrocommunity.colorscheme.gruvbox-nvim" },
 
     { import = "astrocommunity.markdown-and-latex.vimtex" },
     { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
