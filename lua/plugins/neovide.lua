@@ -1,11 +1,11 @@
+vim.cmd([[
+  hi Cursor0 guibg=#00ff00 guifg=#000000
+  set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff600-blinkon600-Cursor0/lCursor0,sm:block-blinkwait175-blinkoff150-blinkon175
+]])
+
 if not vim.g.neovide then
     return {} -- do nothing if not in a Neovide session
 end
-
-vim.cmd([[
-  hi Cursor0 guibg=#00ff00
-  set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff600-blinkon600-Cursor0/lCursor0,sm:block-blinkwait175-blinkoff150-blinkon175
-]])
 
 return {
     "AstroNvim/astrocore",
