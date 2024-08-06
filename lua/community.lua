@@ -19,6 +19,9 @@ return {
     { import = "astrocommunity.pack.cpp" },
     { import = "astrocommunity.pack.bash" },
     { import = "astrocommunity.pack.docker" },
+    { import = "astrocommunity.pack.swift" },
+    { import = "astrocommunity.pack.kotlin" },
+    { import = "astrocommunity.pack.java" },
 
     { import = "astrocommunity.recipes.vscode" },
     { import = "astrocommunity.recipes.neovide" },

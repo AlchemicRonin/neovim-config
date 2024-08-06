@@ -25,6 +25,9 @@ return {
             "cmake",
             "bash",
             "dockerfile",
+            "swift",
+            "kotlin",
+            "java",
             -- add more arguments for adding more treesitter parsers
         },
     },
