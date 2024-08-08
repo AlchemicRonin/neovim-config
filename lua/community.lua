@@ -27,7 +27,8 @@ return {
     { import = "astrocommunity.recipes.neovide" },
     { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 
-    { import = "astrocommunity.debugging.nvim-bqf" },
+    { import = "astrocommunity.quickfix.nvim-bqf" },
+    { import = "astrocommunity.quickfix.quicker-nvim" },
     -- { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
 
     { import = "astrocommunity.git.git-blame-nvim" },
