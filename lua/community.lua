@@ -32,8 +32,12 @@ return {
     -- { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
 
     { import = "astrocommunity.git.git-blame-nvim" },
+    { import = "astrocommunity.git.diffview-nvim" },
+    { import = "astrocommunity.git.neogit" },
 
     { import = "astrocommunity.editing-support.treesj" },
+    { import = "astrocommunity.editing-support.todo-comments-nvim" },
+    { import = "astrocommunity.editing-support.zen-mode-nvim" },
 
     { import = "astrocommunity.diagnostics.trouble-nvim" },
 
@@ -57,5 +61,7 @@ return {
     { import = "astrocommunity.game.leetcode-nvim" },
 
     { import = "astrocommunity.note-taking.obsidian-nvim" },
+
+    { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
     -- import/override with your plugins folder
 }
