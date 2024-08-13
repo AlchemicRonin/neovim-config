@@ -53,5 +53,9 @@ return {
     { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 
     { import = "astrocommunity.neovim-lua-development.helpview-nvim" },
+
+    { import = "astrocommunity.game.leetcode-nvim" },
+
+    { import = "astrocommunity.note-taking.obsidian-nvim" },
     -- import/override with your plugins folder
 }
