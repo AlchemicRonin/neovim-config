@@ -49,6 +49,9 @@ return {
     { import = "astrocommunity.colorscheme.gruvbox-nvim" },
 
     { import = "astrocommunity.markdown-and-latex.vimtex" },
+    { import = "astrocommunity.markdown-and-latex.markview-nvim" },
     { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+
+    { import = "astrocommunity.neovim-lua-development.helpview-nvim" },
     -- import/override with your plugins folder
 }
