@@ -65,5 +65,7 @@ return {
     { import = "astrocommunity.note-taking.obsidian-nvim" },
 
     { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
+
+    { import = "astrocommunity.register.nvim-neoclip-lua" },
     -- import/override with your plugins folder
 }
