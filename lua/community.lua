@@ -57,6 +57,7 @@ return {
     { import = "astrocommunity.markdown-and-latex.vimtex" },
     { import = "astrocommunity.markdown-and-latex.markview-nvim" },
     { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+    -- { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" }, -- replacement for the plugin above (markdown-preview-nvim)
 
     { import = "astrocommunity.neovim-lua-development.helpview-nvim" },
 

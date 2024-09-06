@@ -166,6 +166,7 @@ return {
             end,
         },
         opts = {
+            modes = { "n", "no", "c" },
             hybrid_modes = { "n" },
             headings = { shift_width = 3 },
         },
