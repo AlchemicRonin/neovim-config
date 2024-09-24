@@ -26,6 +26,7 @@ return {
     { import = "astrocommunity.recipes.vscode" },
     { import = "astrocommunity.recipes.neovide" },
     { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+    { import = "astrocommunity.recipes.astrolsp-no-insert-inlay-hints" },
 
     { import = "astrocommunity.quickfix.nvim-bqf" },
     { import = "astrocommunity.quickfix.quicker-nvim" },
