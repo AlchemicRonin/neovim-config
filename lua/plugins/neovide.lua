@@ -22,6 +22,8 @@ if not vim.g.neovide then
     return {} -- do nothing if not in a Neovide session
 end
 
+vim.g.neovide_hide_mouse_when_typing = true
+
 return {
     "AstroNvim/astrocore",
     ---@type AstroCoreOpts
