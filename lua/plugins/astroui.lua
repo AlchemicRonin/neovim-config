@@ -12,10 +12,10 @@ return {
         -- colorscheme = "astrodark",
         -- colorscheme = "gruvbox",
 
-        -- colorscheme = "tokyonight-night",
+        colorscheme = "tokyonight-night",
         -- colorscheme = "tokyonight-storm",
         -- colorscheme = "tokyonight-day",
-        colorscheme = "tokyonight-moon",
+        -- colorscheme = "tokyonight-moon",
 
         -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
         highlights = {
