@@ -40,7 +40,7 @@ return {
 
     { import = "astrocommunity.editing-support.suda-vim" },
     { import = "astrocommunity.editing-support.treesj" },
-    { import = "astrocommunity.editing-support.todo-comments-nvim" },
+    -- { import = "astrocommunity.editing-support.todo-comments-nvim" },
     { import = "astrocommunity.editing-support.zen-mode-nvim" },
     { import = "astrocommunity.editing-support.conform-nvim" },
 
