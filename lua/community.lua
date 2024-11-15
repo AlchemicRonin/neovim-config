@@ -43,6 +43,7 @@ return {
     -- { import = "astrocommunity.editing-support.todo-comments-nvim" },
     { import = "astrocommunity.editing-support.zen-mode-nvim" },
     { import = "astrocommunity.editing-support.conform-nvim" },
+    { import = "astrocommunity.editing-support.auto-save-nvim" },
 
     { import = "astrocommunity.diagnostics.trouble-nvim" },
 
