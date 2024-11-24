@@ -44,6 +44,10 @@ return {
     { import = "astrocommunity.editing-support.zen-mode-nvim" },
     { import = "astrocommunity.editing-support.conform-nvim" },
     { import = "astrocommunity.editing-support.auto-save-nvim" },
+    { import = "astrocommunity.editing-support.vim-visual-multi" },
+
+    { import = "astrocommunity.workflow.precognition-nvim" },
+    { import = "astrocommunity.workflow.hardtime-nvim" },
 
     { import = "astrocommunity.diagnostics.trouble-nvim" },
 
