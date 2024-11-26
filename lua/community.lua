@@ -30,9 +30,7 @@ return {
 
     { import = "astrocommunity.quickfix.nvim-bqf" },
     { import = "astrocommunity.quickfix.quicker-nvim" },
-    -- { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
 
-    -- { import = "astrocommunity.git.git-blame-nvim" },
     { import = "astrocommunity.git.diffview-nvim" },
     { import = "astrocommunity.git.neogit" },
     { import = "astrocommunity.git.octo-nvim" },
@@ -40,13 +38,14 @@ return {
 
     { import = "astrocommunity.editing-support.suda-vim" },
     { import = "astrocommunity.editing-support.treesj" },
-    -- { import = "astrocommunity.editing-support.todo-comments-nvim" },
     { import = "astrocommunity.editing-support.zen-mode-nvim" },
     { import = "astrocommunity.editing-support.conform-nvim" },
     { import = "astrocommunity.editing-support.auto-save-nvim" },
     { import = "astrocommunity.editing-support.vim-visual-multi" },
+    { import = "astrocommunity.editing-support.nvim-treesitter-context" },
 
-    -- { import = "astrocommunity.workflow.precognition-nvim" },
+    { import = "astrocommunity.indent.mini-indentscope" },
+
     { import = "astrocommunity.workflow.hardtime-nvim" },
 
     { import = "astrocommunity.diagnostics.trouble-nvim" },
@@ -57,6 +56,10 @@ return {
     { import = "astrocommunity.scrolling.neoscroll-nvim" },
     { import = "astrocommunity.scrolling.nvim-scrollbar" },
 
+    { import = "astrocommunity.search.nvim-hlslens" },
+
+    { import = "astrocommunity.syntax.vim-cool" },
+
     { import = "astrocommunity.completion.copilot-cmp" },
 
     { import = "astrocommunity.colorscheme.tokyonight-nvim" },
@@ -65,8 +68,7 @@ return {
 
     { import = "astrocommunity.markdown-and-latex.vimtex" },
     { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
-    { import = "astrocommunity.markdown-and-latex.markview-nvim" },
-    -- { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" }, -- replacement for the plugin above (markview-nvim)
+    { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
 
     { import = "astrocommunity.neovim-lua-development.helpview-nvim" },
 
