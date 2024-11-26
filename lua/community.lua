@@ -32,9 +32,7 @@ return {
     { import = "astrocommunity.quickfix.quicker-nvim" },
 
     { import = "astrocommunity.git.diffview-nvim" },
-    { import = "astrocommunity.git.neogit" },
     { import = "astrocommunity.git.octo-nvim" },
-    { import = "astrocommunity.git.fugit2-nvim" },
 
     { import = "astrocommunity.editing-support.suda-vim" },
     { import = "astrocommunity.editing-support.treesj" },
