@@ -23,6 +23,8 @@ return {
     { import = "astrocommunity.pack.kotlin" },
     { import = "astrocommunity.pack.java" },
 
+    { import = "astrocommunity.utility.lua-json5" },
+
     { import = "astrocommunity.recipes.vscode" },
     { import = "astrocommunity.recipes.neovide" },
     { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
