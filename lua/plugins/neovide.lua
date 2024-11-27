@@ -22,8 +22,6 @@ if not vim.g.neovide then
     return {} -- do nothing if not in a Neovide session
 end
 
-vim.g.neovide_hide_mouse_when_typing = true
-
 return {
     "AstroNvim/astrocore",
     ---@type AstroCoreOpts
@@ -44,9 +42,27 @@ return {
                 neovide_padding_right = 0,
                 neovide_padding_left = 0,
 
+                neovide_floating_corner_radius = 1.0,
+
+                neovide_transparency = 0.9,
+
                 neovide_hide_mouse_when_typing = true,
-                neovide_cursor_vfx_mode = "ripple",
-                -- neovide_transparency = 0.9,
+
+                neovide_cursor_smooth_blink = true,
+                neovide_cursor_animate_command_line = true,
+                neovide_cursor_animate_in_insert_mode = true,
+
+                -- neovide_cursor_vfx_mode = "railgun",
+                -- neovide_cursor_vfx_mode = "torpedo",
+                neovide_cursor_vfx_mode = "pixiedust",
+                -- neovide_cursor_vfx_mode = "sonicboom",
+                -- neovide_cursor_vfx_mode = "ripple",
+                -- neovide_cursor_vfx_mode = "wireframe",
+
+                neovide_cursor_vfx_opacity = 1000.0,
+                neovide_cursor_vfx_particle_lifetime = 1.2,
+                neovide_cursor_vfx_particle_density = 30.0,
+                neovide_cursor_vfx_particle_speed = 120.0,
             },
         },
     },
