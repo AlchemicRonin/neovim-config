@@ -44,6 +44,7 @@ return {
     { import = "astrocommunity.editing-support.vim-visual-multi" },
     { import = "astrocommunity.editing-support.nvim-treesitter-context" },
     { import = "astrocommunity.editing-support.bigfile-nvim" },
+    { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
 
     { import = "astrocommunity.indent.mini-indentscope" },
 
@@ -63,9 +64,10 @@ return {
 
     { import = "astrocommunity.completion.copilot-cmp" },
 
-    { import = "astrocommunity.colorscheme.tokyonight-nvim" },
     { import = "astrocommunity.colorscheme.gruvbox-nvim" },
+    { import = "astrocommunity.colorscheme.tokyonight-nvim" },
     { import = "astrocommunity.colorscheme.catppuccin" },
+    { import = "astrocommunity.colorscheme.kanagawa-nvim" },
 
     { import = "astrocommunity.markdown-and-latex.vimtex" },
     { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
