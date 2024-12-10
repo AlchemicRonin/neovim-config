@@ -60,6 +60,7 @@ return {
     { import = "astrocommunity.scrolling.nvim-scrollbar" },
 
     { import = "astrocommunity.search.nvim-hlslens" },
+    { import = "astrocommunity.search.nvim-spectre" },
 
     { import = "astrocommunity.syntax.vim-cool" },
 
