@@ -22,6 +22,7 @@ return {
     { import = "astrocommunity.pack.swift" },
     { import = "astrocommunity.pack.kotlin" },
     { import = "astrocommunity.pack.java" },
+    { import = "astrocommunity.pack.dart" },
 
     { import = "astrocommunity.utility.lua-json5" },
 
