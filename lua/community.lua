@@ -80,6 +80,8 @@ return {
 
     { import = "astrocommunity.game.leetcode-nvim" },
 
+    { import = "astrocommunity.media.image-nvim" },
+
     { import = "astrocommunity.note-taking.obsidian-nvim" },
 
     { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
