@@ -42,7 +42,7 @@ return {
                 neovide_padding_right = 0,
                 neovide_padding_left = 0,
 
-                neovide_floating_corner_radius = 1.0,
+                neovide_floating_corner_radius = 0.25,
 
                 neovide_transparency = 0.9,
 
