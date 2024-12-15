@@ -10,13 +10,6 @@ if vim.g.neovide then
     vim.keymap.set("v", "<D-v>", '"+P')         -- Paste visual mode
     vim.keymap.set("c", "<D-v>", "<C-R>+")      -- Paste command mode
     vim.keymap.set("i", "<D-v>", '<ESC>l"+Pli') -- Paste insert mode
-    vim.keymap.set("n", "<F11>", function()
-        if vim.g.neovide_fullscreen == false then
-            vim.g.neovide_fullscreen = true
-        else
-            vim.g.neovide_fullscreen = false
-        end
-    end, { silent = true })
 end
 
 -- Allow clipboard copy paste in neovim
