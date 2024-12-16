@@ -18,6 +18,8 @@ vim.api.nvim_set_keymap("!", "<D-v>", "<C-R>+", { noremap = true, silent = true 
 vim.api.nvim_set_keymap("t", "<D-v>", "<C-R>+", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("v", "<D-v>", "<C-R>+", { noremap = true, silent = true })
 
+vim.opt.jumpoptions = "stack"
+
 -- if not vim.g.neovide then
 --     return {} -- do nothing if not in a Neovide session
 -- end
