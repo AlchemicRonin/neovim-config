@@ -86,7 +86,7 @@ return {
                     desc = "Refresh codelens (buffer)",
                     callback = function(args)
                         if require("astrolsp").config.features.codelens then
-                            vim.lsp.codelens.refresh({ bufnr = args.buf })
+                            vim.lsp.codelens.refresh { bufnr = args.buf }
                         end
                     end,
                 },
@@ -97,19 +97,15 @@ return {
             n = {
                 -- a `cond` key can provided as the string of a server capability to be required to attach, or a function with `client` and `bufnr` parameters from the `on_attach` that returns a boolean
                 gD = {
-                    function()
-                        vim.lsp.buf.declaration()
-                    end,
+                    function() vim.lsp.buf.declaration() end,
                     desc = "Declaration of current symbol",
                     cond = "textDocument/declaration",
                 },
                 ["<Leader>uY"] = {
-                    function()
-                        require("astrolsp.toggles").buffer_semantic_tokens()
-                    end,
+                    function() require("astrolsp.toggles").buffer_semantic_tokens() end,
                     desc = "Toggle LSP semantic highlight (buffer)",
                     cond = function(client)
-                        return client.supports_method("textDocument/semanticTokens/full")
+                        return client.supports_method "textDocument/semanticTokens/full"
                             and vim.lsp.semantic_tokens ~= nil
                     end,
                 },

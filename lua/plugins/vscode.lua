@@ -1,7 +1,5 @@
 -- don't do anything in non-vscode instances
-if not vim.g.vscode then
-    return {}
-end
+if not vim.g.vscode then return {} end
 
 -- a list of known working plugins with vscode-neovim, update with your own plugins
 local plugins = {
@@ -18,14 +16,12 @@ local plugins = {
     "flash.nvim",
 }
 
-local Config = require("lazy.core.config")
+local Config = require "lazy.core.config"
 -- disable plugin update checking
 Config.options.checker.enabled = false
 Config.options.change_detection.enabled = false
 -- replace the default `cond`
-Config.options.defaults.cond = function(plugin)
-    return vim.tbl_contains(plugins, plugin.name)
-end
+Config.options.defaults.cond = function(plugin) return vim.tbl_contains(plugins, plugin.name) end
 
 ---@type LazySpec
 return {
