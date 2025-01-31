@@ -95,5 +95,7 @@ return {
     { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
 
     { import = "astrocommunity.register.nvim-neoclip-lua" },
+
+    { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
     -- import/override with your plugins folder
 }
