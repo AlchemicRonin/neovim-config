@@ -46,7 +46,7 @@ return {
 
                 neovide_floating_corner_radius = 0.25,
 
-                neovide_transparency = 0.9,
+                neovide_opacity = 0.9,
 
                 neovide_hide_mouse_when_typing = true,
 
