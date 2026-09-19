@@ -22,4 +22,5 @@ Desktop.ini
 *.pem
 *.key
 
-# Keep lazy-lock.json tracked for reproducible plugin versions.
+# Local plugin lockfile
+lazy-lock.json
