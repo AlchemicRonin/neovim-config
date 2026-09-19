@@ -32,3 +32,9 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+## Startup dashboard
+
+Starting Neovim without arguments opens Alpha with the NEOVIM banner. Automatic
+session restore is disabled so it does not replace the dashboard. Use `<Leader>h`
+to open the home screen or `<Leader>Sl` to restore the last session manually.
