@@ -1,1 +1,25 @@
-lazy-lock.json
+# Neovim temporary files
+*.swp
+*.swo
+*.swn
+*~
+*.un~
+Session.vim
+Sessionx.vim
+.netrwhist
+
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Keep lazy-lock.json tracked for reproducible plugin versions.

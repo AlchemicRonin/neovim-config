@@ -8,7 +8,6 @@ return {
 
     { import = "astrocommunity.pack.lua" },
     { import = "astrocommunity.pack.bash" },
-
     { import = "astrocommunity.pack.markdown" },
     { import = "astrocommunity.pack.typst" },
     { import = "astrocommunity.pack.yaml" },
@@ -18,25 +17,28 @@ return {
     { import = "astrocommunity.pack.html-css" },
     { import = "astrocommunity.pack.typescript" },
 
-    { import = "astrocommunity.pack.python-ruff" },
+    { import = "astrocommunity.pack.docker" },
+
+    { import = "astrocommunity.pack.python.base" },
+    { import = "astrocommunity.pack.python.basedpyright" },
+    { import = "astrocommunity.pack.python.ruff" },
+
     { import = "astrocommunity.pack.rust" },
-    { import = "astrocommunity.pack.go" },
     { import = "astrocommunity.pack.cpp" },
     { import = "astrocommunity.pack.cmake" },
-    { import = "astrocommunity.pack.java" },
 
     { import = "astrocommunity.pack.dart" },
-    { import = "astrocommunity.pack.swift" },
-    { import = "astrocommunity.pack.kotlin" },
-
-    { import = "astrocommunity.pack.docker" },
+    -- { import = "astrocommunity.pack.swift" },
+    -- { import = "astrocommunity.pack.kotlin" },
 
     { import = "astrocommunity.utility.lua-json5" },
 
     { import = "astrocommunity.recipes.vscode" },
     { import = "astrocommunity.recipes.neovide" },
-    { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
     { import = "astrocommunity.recipes.astrolsp-no-insert-inlay-hints" },
+    { import = "astrocommunity.recipes.auto-session-restore" },
+    { import = "astrocommunity.recipes.picker-nvchad-theme" },
+    { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 
     { import = "astrocommunity.quickfix.nvim-bqf" },
     { import = "astrocommunity.quickfix.quicker-nvim" },
@@ -88,14 +90,11 @@ return {
 
     { import = "astrocommunity.game.leetcode-nvim" },
 
-    { import = "astrocommunity.media.image-nvim" },
-
-    { import = "astrocommunity.note-taking.obsidian-nvim" },
+    { import = "astrocommunity.media.img-clip-nvim" },
 
     { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
 
     { import = "astrocommunity.register.nvim-neoclip-lua" },
 
     { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
-    -- import/override with your plugins folder
 }
