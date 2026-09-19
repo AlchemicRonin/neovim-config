@@ -38,3 +38,9 @@ nvim
 Starting Neovim without arguments opens Alpha with the NEOVIM banner. Automatic
 session restore is disabled so it does not replace the dashboard. Use `<Leader>h`
 to open the home screen or `<Leader>Sl` to restore the last session manually.
+
+## Compatibility
+
+`lua/plugins/copilot-cmp.lua` overrides Copilot's completion-source availability
+check to use `client:is_stopped()` on modern Neovim. This avoids the deprecated
+dot-call still used upstream without disabling deprecation warnings.
