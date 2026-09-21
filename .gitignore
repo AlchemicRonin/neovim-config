@@ -19,6 +19,7 @@ Desktop.ini
 .env.*
 !.env.example
 !.env.sample
+lua/plugins/local.lua
 *.pem
 *.key
 
