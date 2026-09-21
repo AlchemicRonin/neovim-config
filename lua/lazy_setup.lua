@@ -11,6 +11,16 @@ require("lazy").setup({
       update_notifications = true, -- Enable/disable notification about running `:Lazy update` twice to update pinned plugins
     },
   },
+  {
+    "AstroNvim/astrocore",
+    opts = {
+      options = {
+        g = {
+          copilot_chat_prefix = "<Leader>p",
+        },
+      },
+    },
+  },
   { import = "community" },
   { import = "plugins" },
 } --[[@as LazySpec]], {
