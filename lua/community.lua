@@ -75,7 +75,7 @@ return {
 
   { import = "astrocommunity.syntax.vim-cool" },
 
-  { import = "astrocommunity.completion.copilot-cmp" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.ai.copilotchat-nvim" },
 
   { import = "astrocommunity.colorscheme.gruvbox-nvim" },
