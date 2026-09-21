@@ -44,3 +44,27 @@ to open the home screen or `<Leader>Sl` to restore the last session manually.
 `lua/plugins/copilot-cmp.lua` overrides Copilot's completion-source availability
 check to use `client:is_stopped()` on modern Neovim. This avoids the deprecated
 dot-call still used upstream without disabling deprecation warnings.
+
+## ESP32 development
+
+[`esp32.nvim`](https://github.com/Aietes/esp32.nvim) provides ESP-IDF build,
+flash, monitor, menuconfig, target selection, and Espressif clangd integration.
+Launch Neovim from an activated ESP-IDF environment, then run
+`:ESPReconfigure` once in the project to generate `build.clang`.
+
+Use `<Leader>r` for the ESP32 command menu and `:ESPInfo` to diagnose the active
+ESP-IDF environment, toolchain, compilation database, and LSP configuration.
+
+## STM32 development
+
+The STM32 workflow from
+[`segfaultzz/nvim-site`](https://segfaultzz.github.io/nvim-site/) supports
+STM32CubeIDE and ARM CMake projects. Use `<Leader>mb` to build, `<Leader>mf` to
+build and flash through OpenOCD, `<Leader>md` to build and debug, `<Leader>ma`
+to attach to an existing OpenOCD server, `<Leader>mc` to generate or inspect the
+compilation database, and `<Leader>mp` for the SVD peripheral viewer.
+
+The integration uses `arm-none-eabi-gcc`, `arm-none-eabi-gdb`, OpenOCD,
+`cortex-debug`, and the existing AstroNvim DAP UI. STM32 clangd sessions use the
+system clangd and ARM GCC query driver, while ESP-IDF projects continue to use
+Espressif clangd.
