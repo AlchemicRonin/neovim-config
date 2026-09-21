@@ -110,8 +110,22 @@ return {
     keys = function(_, keys)
       for _, key in ipairs(keys) do
         if type(key[1]) == "string" then key[1] = key[1]:gsub("^<leader>R", "<leader>r") end
+        if key[1] == "<leader>r" and key.group == "ESP32" then key.desc = "ESP32" end
+        if type(key.desc) == "string" then key.desc = key.desc:gsub("^ESP32:%s*", "") end
       end
       return keys
+    end,
+  },
+  {
+    "folke/which-key.nvim",
+    optional = true,
+    opts = function(_, opts)
+      opts.spec = vim.tbl_filter(function(mapping)
+        return mapping[1] ~= "<leader>R"
+      end, opts.spec or {})
+      table.insert(opts.spec, { "<leader>r", group = "󰍛 ESP32" })
+      table.insert(opts.spec, { "<leader>m", group = "󰍛 STM32" })
+      return opts
     end,
   },
   {

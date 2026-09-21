@@ -9,6 +9,16 @@ return {
     config = function() require("stm32").setup() end,
   },
   {
+    "AstroNvim/astrocore",
+    opts = {
+      mappings = {
+        n = {
+          ["<Leader>m"] = false,
+        },
+      },
+    },
+  },
+  {
     "jay-babu/mason-nvim-dap.nvim",
     opts = function(_, opts)
       opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, { "cortex-debug" })
